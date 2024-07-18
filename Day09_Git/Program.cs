@@ -2,9 +2,23 @@
 {
     internal class Program
     {
+
+        struct Player
+        {
+            public string name;
+            public int level;
+        }
+
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Player player = new Player() { name = "김전사", level = 1 };
+
+
         }
+
+
     }
+
+
 }
